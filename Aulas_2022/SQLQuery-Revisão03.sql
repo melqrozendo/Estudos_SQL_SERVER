@@ -1,0 +1,13 @@
+--DISTINCT: COMANDO PARA RETORNAR DADOS UNICOS DE UMA COLUNA DE UMA TABELA;
+
+SELECT *
+FROM person.person;
+
+SELECT FirstName
+FROM person.person;
+
+SELECT DISTINCT FirstName
+FROM person.person;
+
+SELECT DISTINCT LastName
+FROM person.person;
